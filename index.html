@@ -11,7 +11,6 @@
           <img src="https://raw.githubusercontent.com/KenyOS/mpsp/main/ff.png"  alt="MPSP"/> 
         </div>
     <script type="text/javascript">
-    //Note: Replace <YOUR_ACCOUNT_APP_ID> with your Kommunicate account APP_ID
 (function(d, m) {
     var kommunicateSettings = {
         "appId": "3db455557cf093b00f825295da95cdda2",
@@ -27,34 +26,6 @@
     window.kommunicate = m;
     m._globals = kommunicateSettings;
 })(document, window.kommunicate || {});
-
-var kommunicateSettings = {
-    "preLeadCollection": [{
-            "field": "Name", // Name of the field you want to add
-            "required": true, // Set 'true' to make it a mandatory field
-            "placeholder": "enter your name" // add whatever text you want to show in the placeholder
-        },
-        {
-            "field": "Email",
-            "type": "email",
-            "required": true,
-            "placeholder": "Enter your email"
-        },
-        {
-            "field": "Phone",
-            "type": "number",
-            "required": true,
-            "element": "input", // Optional field (Possible values: textarea or input) 
-            "placeholder": "Enter your phone number"
-        },
-        {
-            "field": "Employer", // You can add any number of custom properties
-            "required": true,
-            "element": "input",
-            "placeholder": "Enter employer name"
-        }
-    ]
-};
 </script>
   </body>
 </html>
